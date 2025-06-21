@@ -1,0 +1,9 @@
+[package]
+name = "zaudio"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cpal = { version = "0.15.3", features = ["jack"] }
+rand = "0.9.0"
+rustfft = "6.2.0"
